@@ -1,0 +1,29 @@
+version: '0.2'
+sources:
+- database: local
+  link: ''
+  type: local
+  branch: master
+  cache_path: ''
+  cache_timestamp: ''
+  filters: null
+- database: poo
+  link: C:\bloco-c-poo\poo-dd-cd-bloco-c-lftayna\myrep\.tko\cache\poo\Readme.md
+  type: clone
+  branch: master
+  cache_path: C:\bloco-c-poo\poo-dd-cd-bloco-c-lftayna\myrep\.tko\cache\poo\Readme.md
+  cache_timestamp: '2025-11-03 15:54:27'
+  filters:
+  - listas
+expanded:
+- poo@campanha-principal
+- poo@bloco_c-listas
+tasks: {}
+flags:
+  quests: 0
+  tracks: 0
+  tasks: 0
+  graph: 0
+  xray: 0
+lang: py
+selected: poo@budega
