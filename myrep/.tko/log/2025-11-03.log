@@ -9,3 +9,7 @@
 2025-11-03 16:31:24, EXEC, v:1, k:poo@budega, mode:FULL, rate:90, size:76
 2025-11-03 16:32:34, EXEC, v:1, k:poo@budega, mode:FULL, rate:90, size:76
 2025-11-03 16:34:15, EXEC, v:1, k:poo@budega, mode:FULL, rate:100, size:76
+2025-11-03 16:43:18, MOVE, v:1, k:poo@budega, mode:BACK
+2025-11-03 16:44:11, SELF, v:1, k:poo@budega, rate:100, human:amigos, guide:video_da_aula, alone:8, study:120
+2025-11-03 16:44:32, SELF, v:1, k:poo@array, rate:100, alone:10, study:120
+2025-11-03 16:46:50, MOVE, v:1, k:poo@lapiseira, mode:DOWN

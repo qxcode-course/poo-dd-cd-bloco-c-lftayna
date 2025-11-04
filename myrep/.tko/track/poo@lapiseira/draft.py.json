@@ -1,0 +1,159 @@
+{
+    "patches": [
+        {
+            "label": "2025-11-04_08-53-55",
+            "content": "@@ -2653,92 +2653,8 @@\n ta)%0A\n-        tambor = %22, %22.join(%5B%22%3C%3E%22 if x is None else str(x) for x in self.__tamboor%5D)%0A\n     \n@@ -2723,29 +2723,16 @@\n ambor: %7B\n-self.__tambor\n %7D%22%0A%0Adef \n",
+            "lines": "117"
+        },
+        {
+            "label": "2025-11-04_08-58-17",
+            "content": "@@ -2728,16 +2728,17 @@\n .__tambo\n+o\n r%5D)%0A    \n",
+            "lines": "118"
+        },
+        {
+            "label": "2025-11-04_08-59-00",
+            "content": "@@ -2667,18 +2667,18 @@\n mbor = %22\n-%3C%3E\n+, \n %22.join(%5B\n",
+            "lines": "118"
+        },
+        {
+            "label": "2025-11-04_09-01-17",
+            "content": "@@ -2675,16 +2675,72 @@\n %3C%3E%22.join\n+(%5B%22%3C%3E%22 if x is None else str(x) for x in self.__tambor%5D)\n %0A       \n",
+            "lines": "118"
+        },
+        {
+            "label": "2025-11-04_09-01-31",
+            "content": "@@ -2733,37 +2733,8 @@\n o: %7B\n-%5B%5D if ponta_str is None else \n pont\n",
+            "lines": "118"
+        },
+        {
+            "label": "2025-11-04_09-02-58",
+            "content": "@@ -2733,12 +2733,10 @@\n o: %7B\n-%22\n %5B%5D\n-%22\n  if \n",
+            "lines": "118"
+        },
+        {
+            "label": "2025-11-04_09-03-20",
+            "content": "@@ -2587,18 +2587,20 @@\n _str = %22\n-%5B%5D\n+null\n %22%0A      \n@@ -2729,16 +2729,47 @@\n  bico: %7B\n+%22%5B%5D%22 if ponta_str is None else \n ponta_st\n",
+            "lines": "118"
+        },
+        {
+            "label": "2025-11-04_09-06-16",
+            "content": "@@ -2677,47 +2677,8 @@\n join\n-(f%22%3C%7Bstr(x)%7D%3E%22 for x in self.__tambor) \n %0A   \n",
+            "lines": "118"
+        },
+        {
+            "label": "2025-11-04_09-09-33",
+            "content": "@@ -2665,17 +2665,18 @@\n mbor = %22\n- \n+%3C%3E\n %22.join(f\n",
+            "lines": "118"
+        },
+        {
+            "label": "2025-11-04_09-10-02",
+            "content": "@@ -2651,86 +2651,8 @@\n ta)%0A\n-        if not self.__tambor:%0A            tambor_str = %22%3C%3E%22%0A        else:%0A    \n     \n",
+            "lines": "118"
+        },
+        {
+            "label": "2025-11-04_09-12-09",
+            "content": "@@ -2864,26 +2864,29 @@\n ambor: %7B\n+self.__\n tambor\n-_str\n %7D%22%0A%0Adef \n",
+            "lines": "121"
+        },
+        {
+            "label": "2025-11-04_09-13-09",
+            "content": "@@ -1444,9 +1444,9 @@\n mpat\n-%C3%AD\n+i\n vel%22\n",
+            "lines": "121"
+        },
+        {
+            "label": "2025-11-04_09-13-48",
+            "content": "@@ -937,81 +937,8 @@\n %5B%5D%0A%0A\n-    def set_tambor(self, tambor: list):%0A        self.__tambor = tambor%0A%0A%0A\n     \n",
+            "lines": "121"
+        },
+        {
+            "label": "2025-11-04_09-15-51",
+            "content": "@@ -2861,29 +2861,16 @@\n _tambor)\n-%0A            \n  %0A      \n",
+            "lines": "125"
+        },
+        {
+            "label": "2025-11-04_09-27-19",
+            "content": "@@ -2862,16 +2862,29 @@\n tambor)%0A\n+             \n %0A       \n",
+            "lines": "126"
+        },
+        {
+            "label": "2025-11-04_09-27-43",
+            "content": "@@ -2862,16 +2862,17 @@\n tambor)%0A\n+%0A\n         \n",
+            "lines": "126"
+        },
+        {
+            "label": "2025-11-04_09-28-56",
+            "content": "@@ -2735,12 +2735,12 @@\n  if \n-len(\n+not \n self\n@@ -2752,14 +2752,8 @@\n mbor\n-) == 0\n :%0A  \n",
+            "lines": "125"
+        },
+        {
+            "label": "2025-11-04_09-30-38",
+            "content": "@@ -2872,28 +2872,24 @@\n or)%0A        \n-    \n return f%22cal\n@@ -2954,25 +2954,16 @@\n or_str%7D%22\n-%0A        \n %0A%0Adef ma\n",
+            "lines": "125"
+        },
+        {
+            "label": "2025-11-04_09-31-12",
+            "content": "@@ -2814,28 +2814,24 @@\n       tambor\n-_str\n  = %22 %22.join(\n",
+            "lines": "126"
+        },
+        {
+            "label": "2025-11-04_09-33-23",
+            "content": "@@ -2872,32 +2872,36 @@\n tambor)%0A        \n+    \n return f%22calibre\n",
+            "lines": "126"
+        },
+        {
+            "label": "2025-11-04_09-43-51",
+            "content": "@@ -1564,30 +1564,23 @@\n f.__\n-tambor.append(\n+ponta = \n grafite\n-)\n %0A   \n@@ -1587,39 +1587,46 @@\n      self.__\n-ponta = \n+tambor.append(\n grafite\n+)\n %0A        ret\n",
+            "lines": "126"
+        },
+        {
+            "label": "2025-11-04_09-46-49",
+            "content": "@@ -691,40 +691,8 @@\n n f%22\n-%5B%5D if self.__ponta is None else \n %5B%7Bse\n@@ -1005,16 +1005,17 @@\n tambor%0A%0A\n+%0A\n     def \n",
+            "lines": "126"
+        },
+        {
+            "label": "2025-11-04_09-51-05",
+            "content": "@@ -691,15 +691,10 @@\n n f%22\n-(%7B%22%5B%5D%22%7D\n+%5B%5D\n  if \n@@ -772,17 +772,16 @@\n amanho%7D%5D\n-)\n %22%0A%0Aclass\n",
+            "lines": "125"
+        },
+        {
+            "label": "2025-11-04_09-54-56",
+            "content": "@@ -687,16 +687,17 @@\n eturn f%22\n+(\n %7B%22%5B%5D%22%7D i\n@@ -777,16 +777,17 @@\n amanho%7D%5D\n+)\n %22%0A%0Aclass\n",
+            "lines": "125"
+        },
+        {
+            "label": "2025-11-04_09-55-18",
+            "content": "@@ -687,16 +687,52 @@\n eturn f%22\n+%7B%22%5B%5D%22%7D if self.__ponta is None else \n %5B%7Bself._\n",
+            "lines": "125"
+        },
+        {
+            "label": "2025-11-04_09-59-50",
+            "content": "@@ -1636,145 +1636,8 @@\n True\n-%0A            %0A        %0A    def remover(self) -%3E Grafite %7C None:%0A        aux = self.__ponta%0A        self.__ponta = None%0A        return aux\n %0A%0A  \n@@ -1907,16 +1907,153 @@\n movendo \n+%0A            %0A        %0A    def remover(self) -%3E Grafite %7C None:%0A        aux = self.__ponta%0A        self.__ponta = None%0A        return aux\n %0A%0A    de\n",
+            "lines": "125"
+        },
+        {
+            "label": "2025-11-04_10-03-07",
+            "content": "@@ -1624,32 +1624,169 @@\n      return True\n+%0A            %0A        %0A    def remover(self) -%3E Grafite %7C None:%0A        aux = self.__ponta%0A        self.__ponta = None%0A        return aux\n %0A%0A    def puxar(\n@@ -1919,36 +1919,32 @@\n alse%0A        if \n-len(\n self.__tambor) =\n@@ -1932,33 +1932,32 @@\n if self.__tambor\n-)\n  == 0:%0A         \n@@ -1988,16 +1988,16 @@\n  tambor%0A\n+\n         \n@@ -2049,166 +2049,8 @@\n do %0A\n-        return True%0A            %0A        %0A    def remover(self) -%3E Grafite %7C None:%0A        aux = self.__ponta%0A        self.__ponta = None%0A        return aux%0A%0A\n %0A   \n",
+            "lines": "125"
+        },
+        {
+            "label": "2025-11-04_10-05-02",
+            "content": "@@ -3801,19 +3801,18 @@\n seira.pu\n-xar\n+ll\n ()%0A     \n",
+            "lines": "127"
+        },
+        {
+            "label": "2025-11-04_10-06-47",
+            "content": "@@ -3611,70 +3611,8 @@\n te)%0A\n-        elif args%5B0%5D == %22pull%22:%0A            lapiseira.puxar()%0A\n     \n@@ -3745,16 +3745,78 @@\n agina()%0A\n+        elif args%5B0%5D == %22pull%22:%0A            lapiseira.puxar()%0A\n         \n",
+            "lines": "127"
+        },
+        {
+            "label": "2025-11-04_10-07-52",
+            "content": "@@ -1057,30 +1057,67 @@\n urn \n-self.__tambor%0A        \n+f%22%3C%5B%7Bself.__espessura%7D:%7Bself.__dureza%7D:%7Bself.__tamanho%7D%5D%3E%22%0A\n %0A   \n",
+            "lines": "127"
+        },
+        {
+            "label": "2025-11-04_10-08-58",
+            "content": "class Grafite:\n    def __init__(self, espessura: float, dureza: str, tamanho: int):\n        self.__espessura: float = espessura\n        self.__dureza: str = dureza\n        self.__tamanho: int = tamanho\n\n    def usoPorFolha(self) -> int:\n        gasto = {\"HB\": 1, \"2B\": 2, \"4B\": 4, \"6B\": 6}[self.__dureza]\n        self.__tamanho -= gasto\n        return self.__tamanho\n\n    def get_espessura(self) -> float:\n        return self.__espessura\n    def get_dureza(self) -> str:\n        return self.__dureza\n    def get_tamanho(self) -> int:\n        return self.__tamanho\n\n    def set_tamanho(self, tamanho: int) -> int:\n        self.__tamanho = tamanho\n\n    def __str__(self) -> str:\n        return f\"[{self.__espessura}:{self.__dureza}:{self.__tamanho}]\"\n\nclass Lapiseira:\n    def __init__(self, espessura: float):\n        self.__espessura: float = espessura\n        self.__ponta: Grafite | None = None\n        self.__tambor: list[Grafite] = []\n\n    def set_tambor(self, tambor: list):\n        self.__tambor = tambor\n\n    def get_tambor(self) -> str:\n        return self.__tambor\n        \n    def temGrafite(self) -> bool:\n        if self.__ponta == None:\n            return False\n        if self.__ponta != None:\n            return True\n\n    def inserir(self, grafite: Grafite) -> bool:\n        if self.__ponta != None:\n            print(\"fail: ja existe grafite\")\n            return False\n        if grafite.get_espessura() != self.__espessura:\n            print(\"fail: calibre incompat\u00edvel\")\n            return False\n        self.__tambor.append(grafite)\n        self.__ponta = grafite\n        return True\n\n    def puxar(self) -> bool:\n        if self.__ponta is not None:\n            print(\"fail: j\u00e1 existe grafite no bico\") \n            return False\n        if len(self.__tambor) == 0:\n            return False ##nao h\u00e1 tambor\n        self.__ponta = self.__tambor.pop(0) ##removendo \n        return True\n            \n        \n    def remover(self) -> Grafite | None:\n        aux = self.__ponta\n        self.__ponta = None\n        return aux\n\n\n    def escreverPagina(self) -> None:\n        if self.__ponta == None:\n            print(\"fail: nao existe grafite\")\n            return\n\n        gasto = {\"HB\": 1, \"2B\": 2, \"4B\": 4, \"6B\": 6}[self.__ponta.get_dureza()]\n\n        if self.__ponta.get_tamanho() <= 10: \n            print(\"fail: tamanho insuficiente\")\n            return\n\n        if self.__ponta.get_tamanho() - gasto < 10:\n            self.__ponta.set_tamanho(10)\n            print(\"fail: folha incompleta\")\n            return\n\n        self.__ponta.usoPorFolha()\n\n    def __str__(self) -> str:\n        if self.__ponta == None:\n            ponta_str = \"[]\"\n        else:\n            ponta_str = str(self.__ponta)\n        if len(self.__tambor) == 0:\n            tambor_str = \"<>\"\n        else:\n            tambor_str = \" \".join(f\"<{str(x)}>\" for x in self.__tambor)\n        return f\"calibre: {self.__espessura}, bico: {ponta_str}, tambor: {tambor_str}\"\n        \n\ndef main():\n    lapiseira = Lapiseira(\" \")\n    while True:\n        line: str = input()\n        print(\"$\" + line)\n        args: list[str] = line.split(\" \")\n        if args[0] == \"end\":\n            break\n        elif args[0] == \"show\":\n            print(lapiseira)\n        elif args[0] == \"init\":\n            espessura = float(args[1])\n            lapiseira = Lapiseira(espessura)\n        elif args[0] == \"insert\":\n            espessura = float(args[1])\n            dureza = args[2]\n            tamanho = int(args[3])\n            grafite = Grafite(espessura, dureza, tamanho)\n            lapiseira.inserir(grafite)\n        elif args[0] == \"pull\":\n            lapiseira.puxar()\n        elif args[0] == \"remove\":\n            lapiseira.remover()\n        elif args[0] == \"write\":\n            lapiseira.escreverPagina()\n        else:\n            print(\"fail: comando invalido\")\nmain()",
+            "lines": "127"
+        }
+    ]
+}
