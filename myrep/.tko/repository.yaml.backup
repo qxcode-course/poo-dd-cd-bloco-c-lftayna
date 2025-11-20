@@ -12,7 +12,7 @@ sources:
   type: clone
   branch: master
   cache_path: C:\bloco-c-poo\poo-dd-cd-bloco-c-lftayna\myrep\.tko\cache\poo\Readme.md
-  cache_timestamp: '2025-11-18 21:37:39'
+  cache_timestamp: '2025-11-19 23:05:10'
   filters:
   - listas
 expanded:
@@ -23,7 +23,7 @@ tasks:
   poo@budega: '{rate:100, human:amigos, guide:video_da_aula, alone:8, study:120}'
   poo@lapiseira: '{rate:100, human:monitores, iagen:gpt, alone:6, study:360}'
   poo@pula-pula: '{rate:100, human:amigo, iagen:gpt, alone:4, study:300}'
-  poo@cinema: '{rate:100, iagen:gpt, alone:4, study:240}'
+  poo@cinema: '{rate:100, iagen:gpt, alone:8, study:400}'
 flags:
   quests: 0
   tracks: 0
@@ -31,4 +31,4 @@ flags:
   graph: 1
   xray: 0
 lang: py
-selected: poo@pula-pula
+selected: poo@lapiseira
